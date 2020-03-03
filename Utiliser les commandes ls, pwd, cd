@@ -1,1 +1,47 @@
+Last login: Tue Mar  3 11:20:59 on ttys000
 
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+MacBook-Pro-de-helder:~ helderfernandes$ ls
+Applications	Documents	Library		Music		Public
+Desktop		Downloads	Movies		Pictures
+MacBook-Pro-de-helder:~ helderfernandes$ ls .
+Applications	Documents	Library		Music		Public
+Desktop		Downloads	Movies		Pictures
+MacBook-Pro-de-helder:~ helderfernandes$ ls -a
+.			.config			Applications
+..			.cups			Desktop
+.CFUserTextEncoding	.gitconfig		Documents
+.DS_Store		.local			Downloads
+.IdentityService	.mono			Library
+.Trash			.ms_openjdk_config	Movies
+.android		.node_repl_history	Music
+.bash_history		.templateengine		Pictures
+.bash_sessions		.vscode			Public
+MacBook-Pro-de-helder:~ helderfernandes$ ls /home
+MacBook-Pro-de-helder:~ helderfernandes$ ls ..
+Shared		helderfernandes
+MacBook-Pro-de-helder:~ helderfernandes$ ls /bin
+[		dd		launchctl	pwd		test
+bash		df		link		rm		unlink
+cat		echo		ln		rmdir		wait4path
+chmod		ed		ls		sh		zsh
+cp		expr		mkdir		sleep
+csh		hostname	mv		stty
+dash		kill		pax		sync
+date		ksh		ps		tcsh
+MacBook-Pro-de-helder:~ helderfernandes$ ls -l/bin
+ls: illegal option -- /
+usage: ls [-@ABCFGHLOPRSTUWabcdefghiklmnopqrstuwx1%] [file ...]
+MacBook-Pro-de-helder:~ helderfernandes$ pwd
+/Users/helderfernandes
+MacBook-Pro-de-helder:~ helderfernandes$ cd
+MacBook-Pro-de-helder:~ helderfernandes$ cd ..
+MacBook-Pro-de-helder:Users helderfernandes$ cd /opt
+MacBook-Pro-de-helder:opt helderfernandes$ cd ../home/helderfernandes
+-bash: cd: ../home/helderfernandes: No such file or directory
+MacBook-Pro-de-helder:opt helderfernandes$ cd /usr/bin
+MacBook-Pro-de-helder:bin helderfernandes$ cd
+MacBook-Pro-de-helder:~ helderfernandes$ cd ~
+MacBook-Pro-de-helder:~ helderfernandes$ 
